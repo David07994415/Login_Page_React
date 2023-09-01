@@ -19,7 +19,7 @@ function Singin(){
             const response=await axios.post(apiweb.base+apiweb.signin,{
                 email,
                 password,
-            })
+            });
             Swal.fire({
                 title: '登入成功',
                 text: 'TOKEN為:'+response.data.token,
