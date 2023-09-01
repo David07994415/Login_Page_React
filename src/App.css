@@ -1,0 +1,140 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif,Times, Roboto;
+}
+
+
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  /* text-align: center; */
+  background: #ffd370;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.w_300{
+  width:300px;
+  overflow: auto;
+}
+.btn_bg{
+  background: rgba(51, 51, 51, 1);
+}
+.remark_c{
+  color:  rgba(216, 115, 85, 1);
+}
+.input_304_w{
+  width:304px;
+}
+.btn_128_w{
+  width:128px;
+}
+.todoframe_500_w{
+  width:500px;
+}
+.edit_428_w{
+  width:428px;
+}
+.todostate_33pcer_w{
+  width:33.3%;
+}
+.todohit{
+  color:rgba(159, 154, 145, 1);
+  background:white;
+  position: relative;
+}
+.todohit:active{
+  color:black;
+}
+
+.todohit::after{
+  content: "";
+  position:absolute;
+  width:100%;
+  bottom:0px;
+  left: 0px;
+  border:2px solid rgba(51, 51, 51, 1);
+  z-index: 2;
+}
+
+.border_left_radius{
+  border-top-left-radius: 10px;
+}
+.border_right_radius{
+  border-top-right-radius: 10px;
+}
+.addbtn_icon{
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  background: white;
+}
+.addframe{
+  position:relative;
+}
+.updatetodo_frame{
+  /* height:16px; */
+}
+.updatetodo_frame::placeholder{
+  color: black;
+}
