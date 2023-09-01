@@ -104,7 +104,7 @@ function Todo({ token, setToken }) {
         <div className="mb-3 addframe">
             <label htmlFor='todoinput' className="fs-6 fw-bold mb-1"></label>
             <input id="todoinput" className="border-0 rounded-3 py-3 px-3 fs-6 mb-1 todoframe_500_w" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} placeholder='新增待辦事項' type='text' />
-            <button className='border-0 addbtn_icon' onClick={() => addtodolist()}><img src='/plus 1.png'/></button>
+            <button className='border-0 addbtn_icon' onClick={() => addtodolist()}><img src='public/plus 1.png'/></button>
         </div>
         <div>
             <div className=" d-flex">
@@ -121,12 +121,12 @@ function Todo({ token, setToken }) {
                         <div className="d-flex align-items-start border-bottom pb-3 edit_428_w me-3">
                             <div style={{ display: todoitem.status ? "none" : "block" }}>
                                 <button className='border-0 bg-light' onClick={() => ordertodolist(todoitem.id)}>
-                                    <img src="/Rectangle 2.png" alt="" />
+                                    <img src="public/Rectangle 2.png" alt="" />
                                 </button>
                             </div>
                             <div style={{ display: todoitem.status ? "block" : "none" }}>
                                 <button className='border-0 bg-light' onClick={() => ordertodolist(todoitem.id)}>
-                                    <img src="/check 1.png" alt="" />
+                                    <img src="public/check 1.png" alt="" />
                                 </button>
                             </div>
                             {/* <label htmlFor="todoitems"></label>
@@ -142,7 +142,7 @@ function Todo({ token, setToken }) {
                             }}/>
                             <button className="ms-3"  style={{display:editbtn===todoitem.id?"block":"none"}} onClick={() => {updatodolist(todoitem.id);setEditbtn("none")}}>確認編輯</button>
                         </div>
-                        <button className='border-0 bg-light' onClick={() => deletodolist(todoitem.id)}><img src="/close (1) 1.png"/></button>
+                        <button className='border-0 bg-light' onClick={() => deletodolist(todoitem.id)}><img src="public/close (1) 1.png"/></button>
                         {/* <button onClick={() => ordertodolist(todoitem.id)}>shift</button> */}
                     </li>
                 ))}
@@ -153,12 +153,12 @@ function Todo({ token, setToken }) {
                         <div className="d-flex align-items-start border-bottom pb-3 edit_428_w me-3">
                             <div style={{ display: todoitem.status ? "none" : "block" }}>
                                 <button className='border-0 bg-light' onClick={() => ordertodolist(todoitem.id)}>
-                                    <img src="/Rectangle 2.png" alt="" />
+                                    <img src="public/Rectangle 2.png" alt="" />
                                 </button>
                             </div>
                             <div style={{ display: todoitem.status ? "block" : "none" }}>
                                 <button className='border-0 bg-light' onClick={() => ordertodolist(todoitem.id)}>
-                                    <img src="/check 1.png" alt="" />
+                                    <img src="public/check 1.png" alt="" />
                                 </button>
                             </div>
                             {/* <label htmlFor="todoitems"></label>
@@ -173,7 +173,7 @@ function Todo({ token, setToken }) {
                             }}/>
                             <button className="ms-3"  style={{display:editbtn===todoitem.id?"block":"none"}} onClick={() => {updatodolist(todoitem.id);setEditbtn("none")}}>確認編輯</button>
                         </div>
-                        <button className='border-0 bg-light' onClick={() => deletodolist(todoitem.id)}><img src="/close (1) 1.png"/></button>
+                        <button className='border-0 bg-light' onClick={() => deletodolist(todoitem.id)}><img src="public/close (1) 1.png"/></button>
                         {/* <button onClick={() => ordertodolist(todoitem.id)}>shift</button> */}
                     </li>
                 ))}
@@ -184,12 +184,12 @@ function Todo({ token, setToken }) {
                         <div className="d-flex align-items-start border-bottom pb-3 edit_428_w me-3">
                             <div style={{ display: todoitem.status ? "none" : "block" }}>
                                 <button className='border-0 bg-light' onClick={() => ordertodolist(todoitem.id)}>
-                                    <img src="/Rectangle 2.png" alt="" />
+                                    <img src="public/Rectangle 2.png" alt="" />
                                 </button>
                             </div>
                             <div style={{ display: todoitem.status ? "block" : "none" }}>
                                 <button className='border-0 bg-light' onClick={() => ordertodolist(todoitem.id)}>
-                                    <img src="/check 1.png" alt="" />
+                                    <img src="public/check 1.png" alt="" />
                                 </button>
                             </div>
                             {/* <label htmlFor="todoitems"></label>
@@ -207,7 +207,7 @@ function Todo({ token, setToken }) {
                             }}/>
                             <button className="ms-3"  style={{display:editbtn===todoitem.id?"block":"none"}} onClick={() => {updatodolist(todoitem.id);setEditbtn("none")}}>確認編輯</button>
                         </div>
-                        <button className='border-0 bg-light' onClick={() => deletodolist(todoitem.id)}><img src="/close (1) 1.png"/></button>
+                        <button className='border-0 bg-light' onClick={() => deletodolist(todoitem.id)}><img src="public/close (1) 1.png"/></button>
                         {/* <button onClick={() => ordertodolist(todoitem.id)}>shift</button> */}
                     </li>
                 ))}
